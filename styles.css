@@ -1,13 +1,14 @@
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    gap: 20px;
-    button {
-        width: fit-content;
-    }
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  gap: 20px;
+  button {
+    width: fit-content;
+  }
 }
 
 .error {
-    color: red;
+  color: red;
+  font-size: x-small;
 }
