@@ -6,6 +6,7 @@ form.addEventListener("submit", function (event) {
 
     // VALIDATE NAME
     let nameErrorElement = document.getElementById("name-error");
+    nameErrorElement.textContent = "";
     // ensure name is not empty
     let name = formData.get("name");
     if (name.length === 0) {
@@ -20,6 +21,7 @@ form.addEventListener("submit", function (event) {
 
     // VALIDATE EMAIL
     let emailErrorElement = document.getElementById("email-error");
+    emailErrorElement.textContent = "";
     // ensure email is not empty
     let email = formData.get("email");
     if (email.length === 0) {
